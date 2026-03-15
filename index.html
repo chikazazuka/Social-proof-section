@@ -4,136 +4,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <title>Frontend Mentor | Social proof section</title>
+
 
 </head>
 
 <body>
-  <!-- Container -->
-  <div class="container">
-    <!-- Top row -->
-    <div class="flex_wrapper">
-      <!-- Left column -->
-      <div class="left_col">
-        <h1 class="lead_text dark_magenta_text fs_80 fw_600">10,000+ of our users love our products.</h1>
-        <p class="sub_text dark_magenta_text fs_24 fw_400 mt_2">We only provide great products combined excellent
-          customer
-          service. See what our satisfied customers are saying about our services.</p>
+
+
+  <!-- User review section -->
+  <section class="red">
+    <div class="container">
+      <!-- Top row -->
+      <div class="row p_5 p_md_0">
+        <!-- Lead text and Sub text -->
+        <div class="col_5 col_md_12 dark_magenta_text">
+          <h1 class="lead_text fw_700 fs_50">10,000+ of our users love our products.</h1>
+          <p class="sub_text fs_20 mt_3">We only provide great products combined with excellent customer service. See
+            wht our satisfied customers are saying about our services.</p>
+        </div>
+
+        <!-- Find rating card and text here -->
+        <div class="col_7 col_md_12">
+          <!-- Rating wrapper -->
+          <div class="rating_wrapper">
+            <!--  -->
+            <div class="rating_card">
+              <!-- Rating star -->
+              <div class="rating_star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+              </div>
+              <!-- Rating text -->
+              <div class="rating_text">
+                <p class="dark_magenta_text fw_500">Rated 5 Stars in Reviews</p>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="rating_card">
+              <!-- Rating star -->
+              <div class="rating_star fw_500">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+              </div>
+              <!-- Rating text -->
+              <div class="rating_text">
+                <p class="dark_magenta_text fw_500">Rated 5 Stars in Report Guru</p>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="rating_card">
+              <!-- Rating star -->
+              <div class="rating_star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+                <img src="./images/icon-star.svg" alt="Rating star">
+              </div>
+              <!-- Rating text -->
+              <div class="rating_text">
+                <p class="dark_magenta_text fw_500">Rated 5 Stars in BestTech</p>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
       </div>
 
-      <!-- Right column -->
-      <div class="right_col">
-        <!-- Rating -->
-        <!-- 1 -->
-        <div class="rating">
-          <div class="col_1">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-          </div>
-          <div class="col_1">
-            <p class="dark_magenta_text fs_18 fw_700">Rated 5 Stars in Reviews</p>
-          </div>
-        </div>
-        <!-- 1 -->
-
-        <!-- 2 -->
-        <div class="rating">
-          <div class="col_1">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-          </div>
-          <div class="col_1">
-            <p class="dark_magenta_text fs_18 fw_700">Rated 5 Stars in Report Guru</p>
+      <!-- Bottom row -->
+      <div class="row  p_5 p_md_0">
+        <div class="review_card_wrapper">
+          <!-- Review card -->
+        <div class="col_4 col_md_12 red">
+          <!-- Colton Smith -->
+          <div class="review_card p_5">
+            <div class="row mb_3">
+              <!-- User info -->
+              <div class="col_2 col_md_3">
+                <img src="./images/image-colton.jpg" alt="Colton Smith">
+              </div>
+              <div class="col_10 col_md_9">
+                <h3 class="white_text fs_20 fw_400">Colton Smith</h3>
+                <p class="soft_pink_text mt_1">Verified Buyer</p>
+              </div>
+            </div>
+            <!-- User review -->
+            <p class="white_text fw_200 lh_1">"We needed the same printed designs as the one we had ordered a week
+              prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
           </div>
         </div>
-        <!-- 2 -->
 
-        <!-- 3 -->
-        <div class="rating">
-          <div class="col_1">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
-            <img src="./images/icon-star.svg" alt="star icon" class="star_icon">
+        <!-- Irene Roberts -->
+        <div class="col_4 col_md_12 red">
+          <!-- User info -->
+          <div class="review_card p_5">
+            <div class="row mb_3">
+              <div class="col_2 col_md_3">
+                <img src="./images/image-irene.jpg" alt="Irene Roberts">
+              </div>
+              <div class="col_10 col_md_9">
+                <h3 class="white_text fs_20 fw_400">Irene Roberts</h3>
+                <p class="soft_pink_text mt_1">Verified Buyer</p>
+              </div>
+            </div>
+            <!-- User review -->
+            <p class="white_text fw_200 lh_1">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
           </div>
-          <div class="col_1">
-            <p class="dark_magenta_text fs_18 fw_700">Rated 5 Stars in BestTech</p>
+        </div>
+        <!-- Anne Wallace -->
+        <div class="col_4 col_md_12 red">
+          <div class="review_card p_5">
+            <div class="row mb_3">
+              <div class="col_2 col_md_3">
+                <img src="./images/image-anne.jpg" alt="Anne Wallace">
+              </div>
+              <div class="col_10 col_md_9">
+                <h3 class="white_text fs_20 fw_400">Colton Smith</h3>
+                <p class="soft_pink_text mt_1">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="white_text fw_200 lh_1">"We needed the same printed designs as the one we had ordered a week
+              prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
           </div>
-          <!-- 3 -->
         </div>
       </div>
     </div>
-
-    <!-- Bottom row -->
-    <!-- This column wraps the review cards -->
-    <div class="col_wrapper">
-      <!-- Review card -->
-
-      <!-- Colton -->
-      <div class="review_card">
-        <!-- User info -->
-        <div class="user_info">
-          <div class="col">
-            <img src="./images/image-colton.jpg" width="" alt="">
-          </div>
-          <div class="col">
-            <h6 class="text_white fs_20">Colton Smith</h6>
-            <p class="soft_pink_text fs_16 mt_1">Verified Buyer</p>
-          </div>
-        </div>
-
-        <!-- Review text -->
-        <p class="text_white fs_18 fw_100 mt_2">"We needed the same printed designs as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
-      </div>
-      <!--  -->
-
-      <!-- Irene -->
-      <div class="review_card">
-        <div class="user_info">
-          <div class="col">
-            <img src="./images/image-irene.jpg" width="" alt="">
-          </div>
-          <div class="col">
-            <h6 class="text_white fs_20">Irene Roberts</h6>
-            <p class="soft_pink_text fs_16 mt_1">Verified Buyer</p>
-          </div>
-        </div>
-
-        <!-- Review text -->
-        <p class="text_white fw_100 fs_18 mt_2">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
-      </div>
-      <!--  -->
-
-      <!-- Anne -->
-      <div class="review_card">
-        <div class="user_info">
-          <div class="col">
-            <img src="./images/image-anne.jpg" width="" alt="">
-          </div>
-          <div class="col">
-            <h6 class="text_white fs_20">Anne Wallace</h6>
-            <p class="soft_pink_text fs_16 mt_1">Verified Buyer</p>
-          </div>
-        </div>
-
-        <!-- Review text -->
-        <p class="text_white fw_100 fs_18 mt_2">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
-      </div>
-      <!--  -->
-    </div>
-  </div>
+  </section>
 </body>
 
 </html>
