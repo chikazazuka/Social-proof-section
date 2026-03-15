@@ -6,7 +6,6 @@
   padding-left: 16px;
   padding-right: 16px;
 }
-
 /* Row */
 .row {
   display: flex;
@@ -14,14 +13,12 @@
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
-
 /* Column */
 .col {
   flex: 1 0 0%;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-
 /* Fixed column sizes */
 .col_1 {
   flex: 0 0 8.333%;
@@ -140,8 +137,8 @@
 .me_3 {
   margin-right: 1rem;
 }
-.me_md_0 {
-  margin-right: 0rem;
+.mt_md_3 {
+  margin-top: 1rem;
 }
 /* Padding */
 .p_0 {
@@ -176,7 +173,9 @@
 .pe_3 {
   padding-right: 1rem;
 }
-
+.px_5 {
+  padding: 0rem 3rem;
+}
 /* Line height */
 .lh_1 {
   line-height: 1.5rem;
